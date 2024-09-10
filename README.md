@@ -1,5 +1,5 @@
 # Oorja
-The Oorja: Real-Time Sustainable Power Monitoring System is a revolutionary solution designed to enhance energy efﬁciency in various industries as well as commercial properties. It provides real-time monitoring and analysis of power consumption, enabling businesses and households to optimize their energy usage and reduce costs.
+Oorja: Real-Time Sustainable Power Monitoring System is a revolutionary solution designed to enhance energy efﬁciency in various industries as well as commercial properties. It provides real-time monitoring and analysis of power consumption, enabling businesses and households to optimize their energy usage and reduce costs.
 
 History:
 > Originally in version 1 Oorja was designed as an energy measuring device using Bluetooth module and Arduino UNO. It was limited in range and the sensor it used was primary and didn't provide accurate readings
