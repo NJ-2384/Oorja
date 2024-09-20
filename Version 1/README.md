@@ -6,7 +6,7 @@ Oorja is built around an Arduino Uno board. There exist two separate circuits on
 
 ## Transmitter:
 
-> The transmitter acts as a combination of power supply for the AC devices and as a multimeter.
+- The transmitter acts as a combination of power supply for the AC devices and as a multimeter.
 
 > It uses ACS712 Current Sensor and ZMP101B Voltage Sensor to measure the current through the appliance connected and the voltage drop across it and in turn calculate the power consumed by the appliance.
 
