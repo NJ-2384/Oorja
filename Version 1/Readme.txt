@@ -1,6 +1,6 @@
 Version 1 (The Internship)
 
-In the face of growing global energy demand, increasing environmental concerns, and the imperative for energy efficiency, the deployment of smart energy monitoring systems has emerged as a critical solution. In this project, we tried to design a monitoring project using simple components using which the power consumption of different electrical appliances can be monitored and also switched on or off. The project is based on Arduino and we have used Arduino UNO for the project and are going to Monitor Home Appliances using Bluetooth Module and appropriate sensors for current and voltage sensing. 
+In this project, I tried to design a monitoring project using simple components using which the power consumption of different electrical appliances can be monitored and also switched on or off. The project is based on Arduino and we have used Arduino UNO for the project and are going to Monitor Home Appliances using Bluetooth Module and appropriate sensors for current and voltage sensing. 
 
 Oorja is built around an Arduino Uno board. There exist two separate circuits one for Transmitter and one for Receiver.
 
