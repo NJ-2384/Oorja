@@ -1,4 +1,4 @@
-#Version 1 (The Internship)
+# Version 1 (The Internship)
 
 In the face of growing global energy demand, increasing environmental concerns, and the imperative for energy efficiency, the deployment of smart energy monitoring systems has emerged as a critical solution. In this project, we tried to design a monitoring project using simple components using which the power consumption of different electrical appliances can be monitored and also switched on or off. The project is based on Arduino and we have used Arduino UNO for the project and are going to Monitor Home Appliances using Bluetooth Module and appropriate sensors for current and voltage sensing. 
 
@@ -6,11 +6,11 @@ Oorja is built around an Arduino Uno board. There exist two separate circuits on
 
 Transmitter :-
 
-> The transmitter acts as a combination of power supply for the AC devices and as a multimeter.
+The transmitter acts as a combination of power supply for the AC devices and as a multimeter.
 
-> It uses ACS712 Current Sensor and ZMP101B Voltage Sensor to measure the current through the appliance connected and the voltage drop across it and in turn calculate the power consumed by the appliance.
+It uses ACS712 Current Sensor and ZMP101B Voltage Sensor to measure the current through the appliance connected and the voltage drop across it and in turn calculate the power consumed by the appliance.
 
-> These sensors outputs the readings into the “analog” Pins of the Arduino where then the data is interpreted and transmitted to the receiver via the HC05 Bluetooth module in a form which is easily readable and displayable using the 16x2 LCD.
+These sensors outputs the readings into the “analog” Pins of the Arduino where then the data is interpreted and transmitted to the receiver via the HC05 Bluetooth module in a form which is easily readable and displayable using the 16x2 LCD.
 
 
 Receiver :-
