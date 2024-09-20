@@ -12,7 +12,9 @@ Oorja is built around an Arduino Uno board. There exist two separate circuits on
 
 - These sensors outputs the readings into the “analog” Pins of the Arduino where then the data is interpreted and transmitted to the receiver via the HC05 Bluetooth module in a form which is easily readable and displayable using the 16x2 LCD.
 
-![Circuit Diagram (Transmitter)](https://github.com/user-attachments/assets/249f1228-55df-4a04-9d25-c58abe6eb6c0)
+<p align="center">
+  <img src="![Circuit Diagram (Transmitter)](https://github.com/user-attachments/assets/249f1228-55df-4a04-9d25-c58abe6eb6c0)" />
+</p>
 
 ## Receiver:
 
