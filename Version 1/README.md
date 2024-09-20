@@ -4,7 +4,7 @@ In this project, I tried to design a monitoring project using simple components 
 
 Oorja is built around an Arduino Uno board. There exist two separate circuits one for Transmitter and one for Receiver.
 
-• Transmitter:
+# Transmitter:
 
 > The transmitter acts as a combination of power supply for the AC devices and as a multimeter.
 
@@ -12,7 +12,7 @@ Oorja is built around an Arduino Uno board. There exist two separate circuits on
 
 > These sensors outputs the readings into the “analog” Pins of the Arduino where then the data is interpreted and transmitted to the receiver via the HC05 Bluetooth module in a form which is easily readable and displayable using the 16x2 LCD.
 
-• Receiver:
+# Receiver:
 
 > The receiver is basically a glorified Monitor which acts as a wireless display for the “Multimeter” that is the transmitter.
 
