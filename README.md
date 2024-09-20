@@ -9,10 +9,10 @@ It is a revolutionary solution designed to enhance energy efﬁciency in various
 
 The Project has gone through multiple versions to reach at a level it is right now.
 
-History:
+## History:
 > Originally in version 1, Oorja was designed as a part of my Internship project and was an energy measuring device using Bluetooth module and Arduino UNO. It was limited in range and the sensor it used was primary and didn't provide accurate readings
 
 > In version 2, I upgraded it to use ESP32 instead of Arduino and used a better PZEM-004T sensor which is better, more accurate and energy efficient. It is no longer limited in range as it is IOT enabled. This was the version that got selected to be published in IEEE Xplore.
 
-Progress:
-> Currently, Oorja is in its Third version of making. I am trying to integrate AI in its core feature, as a part of SIH, using EmbeddeML in order to enable Oorja to provide personalised suggestions to save energy when it recognises your pattern using its metering capabilities and other sensors which senses the environment around it.
+## Progress:
+- Currently, Oorja is in its Third version of making. I am trying to integrate AI in its core feature, as a part of SIH, using EmbeddeML in order to enable Oorja to provide personalised suggestions to save energy when it recognises your pattern using its metering capabilities and other sensors which senses the environment around it.
