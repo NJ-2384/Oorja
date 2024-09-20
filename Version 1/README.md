@@ -2,8 +2,6 @@
 
 In this project, I tried to design a monitoring project using simple components using which the power consumption of different electrical appliances can be monitored and also switched on or off. The project is based on Arduino and we have used Arduino UNO for the project and are going to Monitor Home Appliances using Bluetooth Module and appropriate sensors for current and voltage sensing. 
 
-![B612_20240205_191749_909](https://github.com/user-attachments/assets/ef7e78dc-ae21-471a-a969-309b88e93f37)
-
 Oorja is built around an Arduino Uno board. There exist two separate circuits one for Transmitter and one for Receiver.
 
 ## Transmitter:
