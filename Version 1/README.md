@@ -2,6 +2,8 @@
 
 In this project, I tried to design a monitoring project using simple components using which the power consumption of different electrical appliances can be monitored and also switched on or off. The project is based on Arduino and we have used Arduino UNO for the project and are going to Monitor Home Appliances using Bluetooth Module and appropriate sensors for current and voltage sensing. 
 
+![B612_20240205_191749_909](https://github.com/user-attachments/assets/ef7e78dc-ae21-471a-a969-309b88e93f37)
+
 Oorja is built around an Arduino Uno board. There exist two separate circuits one for Transmitter and one for Receiver.
 
 ## Transmitter:
@@ -22,5 +24,6 @@ Oorja is built around an Arduino Uno board. There exist two separate circuits on
 
 - The data received from the transmitter circuit is interpreted and displayed on the 16x2 LCD using the I2C communication bus.
 
-
 Also the receiver has the capability to send the transmitter either an ON or an OFF signal in order to wirelessly switch the Home appliance which is interpreted at the transmitter end and implemented using a 5v relay module.
+
+![Circuit Diagram (Receiver)](https://github.com/user-attachments/assets/d15dbc96-0779-4f2b-a7b6-1e5b435905fc)
