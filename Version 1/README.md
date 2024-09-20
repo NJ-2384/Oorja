@@ -30,4 +30,6 @@ Oorja is built around an Arduino Uno board. There exist two separate circuits on
 
 Also the receiver has the capability to send the transmitter either an ON or an OFF signal in order to wirelessly switch the Home appliance which is interpreted at the transmitter end and implemented using a 5v relay module.
 
-![Circuit Diagram (Receiver)](https://github.com/user-attachments/assets/d15dbc96-0779-4f2b-a7b6-1e5b435905fc)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6ea13bae-8fb8-4dc9-a5df-fa877f06ff16" />
+</p>
