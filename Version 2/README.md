@@ -4,7 +4,7 @@ The version 2 of the project was based on ESP32 microcontroller. It is built usi
 energy use and save expenses without sacrificing safety. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c005900f-cf28-4d32-a427-efa629985b9f" />
+  <img src="https://github.com/user-attachments/assets/1eece639-d179-4592-9b79-54f70497c5ea" />
 </p>
 
 The proposed system contains two circuits, one for the transmitter and one for the receiver.
@@ -20,7 +20,7 @@ The proposed system contains two circuits, one for the transmitter and one for t
 - The sensor then feeds these readings into the ESP32, via the Rx and Tx terminal, where the data is interpreted. This data then is sent to the Blynk IoT server using the internal WiFi provisioning.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ec5f5b68-e48d-4ba9-893f-c6bff59d2d48" />
+  <img src="https://github.com/user-attachments/assets/f22a1371-12f1-4011-89ec-b3d5ff413058" />
 </p>
 
 ## Receiver:
@@ -34,5 +34,5 @@ The proposed system contains two circuits, one for the transmitter and one for t
 Also, it connects to the Blynk IoT server via the internal Wi-Fi provisioning.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/599704f6-7373-4ae5-b6b4-5deda9eef84a" />
+  <img src="https://github.com/user-attachments/assets/84b7f292-52a3-4ab5-94c4-5bc800701b15" />
 </p>
