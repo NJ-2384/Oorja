@@ -1,35 +1,38 @@
 # Version 2 (The Research Paper)
 
-In this project, I tried to design a monitoring project using simple components using which the power consumption of different electrical appliances can be monitored and also switched on or off. The project is based on Arduino and we have used Arduino UNO for the project and are going to Monitor Home Appliances using Bluetooth Module and appropriate sensors for current and voltage sensing. 
+The version 2 of the project was based on ESP32 microcontroller. It is built using ESP32 microcontroller with PZEM-004T sensor. It is IoTenabled to provide real-time monitoring and analysis of power consumption through a web dashboard, mobile app, or a dedicated receiver. With extensive safety features, such as a glass fuse, a high-pitched alarm, and an automated power cutoff, the proposed system allows homes and businesses to optimize 
+energy use and save expenses without sacrificing safety. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd55d1c5-6e3e-4694-b173-46eda8963acc" />
+  <img src="https://github.com/user-attachments/assets/f4cd3ce7-db91-409a-bee5-7cb2f9807e19" />
 </p>
 
-Oorja is built around an Arduino Uno board. There exist two separate circuits one for Transmitter and one for Receiver.
+The proposed system contains two circuits, one for the transmitter and one for the receiver.
 
 ## Transmitter:
 
-- The transmitter acts as a combination of power supply for the AC devices and as a multimeter.
-
-- It uses ACS712 Current Sensor and ZMP101B Voltage Sensor to measure the current through the appliance connected and the voltage drop across it and in turn calculate the power consumed by the appliance.
-
-- These sensors outputs the readings into the “analog” Pins of the Arduino where then the data is interpreted and transmitted to the receiver via the HC05 Bluetooth module in a form which is easily readable and displayable using the 16x2 LCD.
+- The transmitter is the heart of the complete operation performed by the proposed system.
+  
+- The transmitter serves the dual purpose; as power socket for AC devices as well as a multimeter.
+  
+- It takes the mains supply from any socket and routes it to the connected appliance, plugged into the transmitter’s socket, via the PZEM-004T sensor. The sensor then measures the current through the appliance, voltage drop across it with the frequency, power drawn by the appliance and the power factor.
+  
+- The sensor then feeds these readings into the ESP32, via the Rx and Tx terminal, where the data is interpreted. This data then is sent to the Blynk IoT server using the internal WiFi provisioning.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3ea26617-2b61-4861-91a8-9a44833d56eb" />
+  <img src="https://github.com/user-attachments/assets/ec5f5b68-e48d-4ba9-893f-c6bff59d2d48" />
 </p>
 
 ## Receiver:
 
-- The receiver is basically a glorified Monitor which acts as a wireless display for the “Multimeter” that is the transmitter.
+- The receiver is a glorified Monitor acting as a wireless display for the “Multimeter” which is the transmitter in the proposed system.
 
-- It consists of 16x2 I2C LCD display and HC05 Bluetooth Module.
+- It consists of ESP32 for processing the data received from the transmitter, and two 16x2 I2C LCDs for display.
+  
+- The data received from the transmitter circuit is processed, interpreted and displayed on the LCDs using the I2C communication bus.
 
-- The data received from the transmitter circuit is interpreted and displayed on the 16x2 LCD using the I2C communication bus.
-
-Also the receiver has the capability to send the transmitter either an ON or an OFF signal in order to wirelessly switch the Home appliance which is interpreted at the transmitter end and implemented using a 5v relay module.
+Also, it connects to the Blynk IoT server via the internal Wi-Fi provisioning.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6ea13bae-8fb8-4dc9-a5df-fa877f06ff16" />
+  <img src="https://github.com/user-attachments/assets/599704f6-7373-4ae5-b6b4-5deda9eef84a" />
 </p>
