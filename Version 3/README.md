@@ -1,35 +1,7 @@
 # Version 3 (The SIH)
 
-In this project, I tried to design a monitoring project using simple components using which the power consumption of different electrical appliances can be monitored and also switched on or off. The project is based on Arduino and we have used Arduino UNO for the project and are going to Monitor Home Appliances using Bluetooth Module and appropriate sensors for current and voltage sensing. 
+The version 3 of Oorja is still under progress. The mainadvancement of v3 over v2 will be the integration of AI. The v2 of Oorja generates a lot of RAW data, and AI thrives on it. Right now in its current state, we can only visualise our consumption and have to optimise ourselves. But my goal with v3 and AI is to generate "Trend" curve with the data it generate and provide optimisation by itself
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd55d1c5-6e3e-4694-b173-46eda8963acc" />
-</p>
-
-Oorja is built around an Arduino Uno board. There exist two separate circuits one for Transmitter and one for Receiver.
-
-## Transmitter:
-
-- The transmitter acts as a combination of power supply for the AC devices and as a multimeter.
-
-- It uses ACS712 Current Sensor and ZMP101B Voltage Sensor to measure the current through the appliance connected and the voltage drop across it and in turn calculate the power consumed by the appliance.
-
-- These sensors outputs the readings into the “analog” Pins of the Arduino where then the data is interpreted and transmitted to the receiver via the HC05 Bluetooth module in a form which is easily readable and displayable using the 16x2 LCD.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3ea26617-2b61-4861-91a8-9a44833d56eb" />
-</p>
-
-## Receiver:
-
-- The receiver is basically a glorified Monitor which acts as a wireless display for the “Multimeter” that is the transmitter.
-
-- It consists of 16x2 I2C LCD display and HC05 Bluetooth Module.
-
-- The data received from the transmitter circuit is interpreted and displayed on the 16x2 LCD using the I2C communication bus.
-
-Also the receiver has the capability to send the transmitter either an ON or an OFF signal in order to wirelessly switch the Home appliance which is interpreted at the transmitter end and implemented using a 5v relay module.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6ea13bae-8fb8-4dc9-a5df-fa877f06ff16" />
+  <img src="https://github.com/user-attachments/assets/b1095261-3b8f-4528-bcc7-a6c7a4d98c2d" />
 </p>
