@@ -4,7 +4,7 @@ The version 2 of the project was based on ESP32 microcontroller. It is built usi
 energy use and save expenses without sacrificing safety. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f4cd3ce7-db91-409a-bee5-7cb2f9807e19" />
+  <img src="https://github.com/user-attachments/assets/c005900f-cf28-4d32-a427-efa629985b9f" />
 </p>
 
 The proposed system contains two circuits, one for the transmitter and one for the receiver.
